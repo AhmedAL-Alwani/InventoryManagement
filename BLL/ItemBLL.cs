@@ -18,7 +18,18 @@ namespace InventoryManagement.BLL
 
         public void UpdateItem(String id, string name, int catId, int unitId) => dal.UpdateItem(id, name, catId, unitId);
 
-        public void DeleteItem(String id) => dal.DeleteItem(id);
+        public bool DeleteItem(string id)
+        {
+            if (!dal.IsItemUsedInTransactions(id))
+            {
+                dal.DeleteItem(id);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
         public DataTable SearchItems(string text) => dal.SearchItems(text);
         public DataTable GetCategories()

@@ -1,43 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 using InventoryManagement.ConnectionString;
 
 namespace InventoryManagement.DAL
 {
-    class CategoriesDAL
+    class UnitsDAL
     {
-        public DataTable GetAllCategories()
+        public DataTable GetAllUnits()
         {
             DataTable dt = new DataTable();
             SqlConnection conn = DBConnection.GetConnectionString();
             try
             {
                 conn.Open();
-                string query = "SELECT Category_ID, Category_Name FROM Categories";
+                string query = "SELECT Unit_ID, Unit_Name FROM Units";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
                 adapter.Fill(dt);
             }
             finally
             {
                 conn.Close();
+
             }
             return dt;
         }
-
-        public void InsertCategory(string categoryName)
+        public void AddUnit(string UnitName)
         {
             SqlConnection conn = DBConnection.GetConnectionString();
             try
             {
                 conn.Open();
-                string query = "INSERT INTO Categories (Category_Name) VALUES (@name)";
+                string query = "INSERT INTO Units (Unit_Name) VALUES (@name)";
                 SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@name", categoryName);
+                cmd.Parameters.AddWithValue("@name", UnitName);
                 cmd.ExecuteNonQuery();
             }
             finally
@@ -45,17 +45,15 @@ namespace InventoryManagement.DAL
                 conn.Close();
             }
         }
-
-        public void UpdateCategory(int categoryId, string categoryName)
+        public void DeleteUnit(int UnitId)
         {
             SqlConnection conn = DBConnection.GetConnectionString();
             try
             {
                 conn.Open();
-                string query = "UPDATE Categories SET Category_Name = @name WHERE Category_ID = @id";
+                string query = "DELETE FROM Units WHERE Unit_ID = @id";
                 SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@name", categoryName);
-                cmd.Parameters.AddWithValue("@id", categoryId);
+                cmd.Parameters.AddWithValue("@id", UnitId);
                 cmd.ExecuteNonQuery();
             }
             finally
@@ -63,16 +61,16 @@ namespace InventoryManagement.DAL
                 conn.Close();
             }
         }
-
-        public void DeleteCategory(int categoryId)
+        public void UpdateUnit(int UnitId ,string UnitName)
         {
             SqlConnection conn = DBConnection.GetConnectionString();
             try
             {
                 conn.Open();
-                string query = "DELETE FROM Categories WHERE Category_ID = @id";
+                string query = "UPDATE Units SET Unit_Name = @name WHERE Unit_ID = @id";
                 SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@id", categoryId);
+                cmd.Parameters.AddWithValue("@name", UnitName);
+                cmd.Parameters.AddWithValue("@id", UnitId);
                 cmd.ExecuteNonQuery();
             }
             finally
@@ -80,15 +78,14 @@ namespace InventoryManagement.DAL
                 conn.Close();
             }
         }
-
-        public DataTable SearchCategory(string searchText)
+        public DataTable SearchUnit(string searchText)
         {
             DataTable dt = new DataTable();
             SqlConnection conn = DBConnection.GetConnectionString();
             try
             {
                 conn.Open();
-                string query = "SELECT Category_ID, Category_Name FROM Categories WHERE Category_Name LIKE @search";
+                string query = "SELECT Unit_ID, Unit_Name FROM Units WHERE Unit_Name LIKE @search";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@search", $"%{searchText}%");
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
@@ -100,13 +97,13 @@ namespace InventoryManagement.DAL
             }
             return dt;
         }
-        public bool IsCategoryUsedInItems(int categoryId)
+        public bool IsUnitUsedInItems(int unitId)
         {
             bool IsUsed = false;
-            string query = "SELECT COUNT(*) FROM Items WHERE Category_ID = @id";
+            string query = "SELECT COUNT(*) FROM Items WHERE Unit_ID = @id";
             SqlConnection conn = DBConnection.GetConnectionString();
             SqlCommand cmd = new SqlCommand(query, conn);
-            cmd.Parameters.AddWithValue("@id", categoryId);
+            cmd.Parameters.AddWithValue("@id", unitId);
 
             try
             {

@@ -64,9 +64,7 @@ namespace InventoryManagement.InnerUserControls
             }
             else
             {
-               // btn_cancel_category.Enabled = false;
                 DGV_category.Enabled = true;
-               // btn_save_category.Enabled = false;
             }
         }
 
@@ -118,9 +116,16 @@ namespace InventoryManagement.InnerUserControls
                     DialogResult result = MessageBox.Show("هل أنت متأكد من حذف هذه الفئة؟", "تأكيد الحذف", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                     if (result == DialogResult.Yes)
                     {
-                        categoriesBLL.DeleteCategory(id);
-                        MessageBox.Show("تم حذف الفئة بنجاح");
-                        AddCategory_Load(sender, e);
+                        bool deleted = categoriesBLL.DeleteCategory(id);
+                        if (deleted)
+                        {
+                            MessageBox.Show("تم حذف الفئة بنجاح", "تم", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            AddCategory_Load(sender, e);
+                        }
+                        else
+                        {
+                            MessageBox.Show("لا يمكن حذف هذه الفئة لأنها مستخدمة في منتجات", "تحذير", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
                     }
                 }
             }

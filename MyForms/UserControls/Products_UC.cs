@@ -187,15 +187,21 @@ namespace InventoryManagement.UserControls
                 }
                 else if (columnName == "DeleteColumn")
                 {
-
                     string id = DGV_product.Rows[e.RowIndex].Cells["Item_ID"].Value.ToString();
 
                     DialogResult result = MessageBox.Show("هل أنت متأكد من حذف هذا المنتج؟", "تأكيد الحذف", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                     if (result == DialogResult.Yes)
                     {
-                        itemBLL.DeleteItem(id);
-                        MessageBox.Show("تم حذف المنتج بنجاح");
-                        Products_UC_Load(sender, e);
+                        bool deleted = itemBLL.DeleteItem(id);
+                        if (deleted)
+                        {
+                            MessageBox.Show("تم حذف المنتج بنجاح", "تم", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            Products_UC_Load(sender, e);
+                        }
+                        else
+                        {
+                            MessageBox.Show("لا يمكن حذف هذا المنتج لأنه مرتبط بعمليات توريد او صرف ", "تحذير", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
                     }
                 }
             }

@@ -53,9 +53,12 @@
   <ItemGroup>
     <Compile Include="BLL\CategoriesBLL.cs" />
     <Compile Include="BLL\ItemBLL.cs" />
+    <Compile Include="BLL\UnitsBLL.cs" />
     <Compile Include="ConnectionString\DBConnection.cs" />
     <Compile Include="DAL\CategoriesDAL.cs" />
     <Compile Include="DAL\ItemDAL.cs" />
+    <Compile Include="DAL\UnitsDAL.cs" />
+    <Compile Include="Models\ClassForTest.cs" />
     <Compile Include="MyForms\InnerUserControls\AddCategory.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -216,9 +219,7 @@
   <ItemGroup>
     <None Include="bin\Debug\image\5.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

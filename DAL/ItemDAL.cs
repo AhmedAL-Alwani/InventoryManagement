@@ -169,7 +169,25 @@ namespace InventoryManagement.DAL
             return dt;
 
         }
-
+        public bool IsItemUsedInTransactions(string ItemId)
+        {
+            bool IsUsed = false;
+            string query = "SELECT COUNT(*) FROM InventoryTransactionDetails WHERE Item_ID = @id";
+            SqlConnection conn = DBConnection.GetConnectionString();
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("@id", ItemId);
+            try
+            {
+                conn.Open();
+                int count = (int)cmd.ExecuteScalar();
+                IsUsed = count > 0;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return IsUsed;
+        }
     }
 }
 

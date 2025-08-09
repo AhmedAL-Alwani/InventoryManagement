@@ -27,9 +27,17 @@ namespace InventoryManagement.BLL
             dal.UpdateCategory(categoryId, categoryName);
         }
 
-        public void DeleteCategory(int categoryId)
+        public bool DeleteCategory(int categoryId)
         {
-            dal.DeleteCategory(categoryId);
+            if (!dal.IsCategoryUsedInItems(categoryId))
+            {
+                dal.DeleteCategory(categoryId);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public DataTable SearchCategory(string searchText)
