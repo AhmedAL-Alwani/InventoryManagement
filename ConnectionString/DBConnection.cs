@@ -10,7 +10,7 @@ namespace InventoryManagement.ConnectionString
 {
     class DBConnection
     {
-        private static string connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=Inventory_DB;Integrated Security=True";
+        private static string connectionString = @"Data Source=.;Initial Catalog=Inventory_DB;Integrated Security=True";
         public static SqlConnection GetConnectionString()
         {
             

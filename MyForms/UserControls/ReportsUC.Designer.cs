@@ -28,18 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.pic_transactions_repo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_transactions_repo)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pic_transactions_repo
+            // 
+            this.pic_transactions_repo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pic_transactions_repo.Location = new System.Drawing.Point(123, 104);
+            this.pic_transactions_repo.Name = "pic_transactions_repo";
+            this.pic_transactions_repo.Size = new System.Drawing.Size(100, 120);
+            this.pic_transactions_repo.TabIndex = 0;
+            this.pic_transactions_repo.TabStop = false;
+            this.pic_transactions_repo.Click += new System.EventHandler(this.pic_transactions_repo_Click);
             // 
             // ReportsUC
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pic_transactions_repo);
             this.Name = "ReportsUC";
-            this.Size = new System.Drawing.Size(1011, 646);
+            this.Size = new System.Drawing.Size(885, 646);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_transactions_repo)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox pic_transactions_repo;
     }
 }

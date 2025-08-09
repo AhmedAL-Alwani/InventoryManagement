@@ -16,3 +16,24 @@ C:\Users\Ahmed\documents\visual studio 2015\Projects\InventoryManagement\Invento
 C:\Users\Ahmed\documents\visual studio 2015\Projects\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.MyForms.UserControls.ReportsUC.resources
 C:\Users\Ahmed\documents\visual studio 2015\Projects\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.MyForms.UserControls.SuppliersUC.resources
 C:\Users\Ahmed\documents\visual studio 2015\Projects\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.MyForms.UserControls.TransactionUC.resources
+D:\alaa pro\Inventory\bin\Debug\InventoryManagement.exe.config
+D:\alaa pro\Inventory\bin\Debug\InventoryManagement.exe
+D:\alaa pro\Inventory\bin\Debug\InventoryManagement.pdb
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.csproj.AssemblyReference.cache
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.csproj.SuggestedBindingRedirects.cache
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.InnerUserControls.AddCategory.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.MyForms.InnerUserControls.AddUnitUC.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.Login.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.MainForm.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.MyForms.UserControls.CustomersUC.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.MyForms.UserControls.ReportsUC.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.MyForms.UserControls.SuppliersUC.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.MyForms.UserControls.TransactionUC.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.Properties.Resources.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.UserControls.Home_UC.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.UserControls.Products_UC.resources
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.csproj.GenerateResource.cache
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.csproj.CoreCompileInputs.cache
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.exe
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.pdb
+D:\alaa pro\Inventory\obj\Debug\InventoryManagement.MyForms.InnerUserControls.TransactionsRepo.resources
