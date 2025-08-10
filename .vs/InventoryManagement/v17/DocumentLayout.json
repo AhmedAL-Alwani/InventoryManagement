@@ -1,36 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\InventoryManagement\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|e:\\inventorymanagement\\myforms\\innerusercontrols\\subtranscation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:myforms\\innerusercontrols\\subtranscation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|E:\\InventoryManagement\\dal\\transactionsoperations_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:dal\\transactionsoperations_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|E:\\InventoryManagement\\bll\\transactionsoperations_bbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:bll\\transactionsoperations_bbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|E:\\InventoryManagement\\myforms\\innerusercontrols\\subtranscation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:myforms\\innerusercontrols\\subtranscation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|E:\\InventoryManagement\\myforms\\innerusercontrols\\subtranscation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:myforms\\innerusercontrols\\subtranscation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|E:\\InventoryManagement\\myforms\\usercontrols\\transactionuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:myforms\\usercontrols\\transactionuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|E:\\InventoryManagement\\myforms\\usercontrols\\transactionuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:myforms\\usercontrols\\transactionuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 196,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,91 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "subTranscation.cs",
-              "DocumentMoniker": "E:\\InventoryManagement\\MyForms\\InnerUserControls\\subTranscation.cs",
-              "RelativeDocumentMoniker": "MyForms\\InnerUserControls\\subTranscation.cs",
-              "ToolTip": "E:\\InventoryManagement\\MyForms\\InnerUserControls\\subTranscation.cs",
-              "RelativeToolTip": "MyForms\\InnerUserControls\\subTranscation.cs",
-              "ViewState": "AgIAAAQBAAAAAAAAAAAuwCsBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T03:36:30.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "subTranscation.Designer.cs",
-              "DocumentMoniker": "E:\\InventoryManagement\\MyForms\\InnerUserControls\\subTranscation.Designer.cs",
-              "RelativeDocumentMoniker": "MyForms\\InnerUserControls\\subTranscation.Designer.cs",
-              "ToolTip": "E:\\InventoryManagement\\MyForms\\InnerUserControls\\subTranscation.Designer.cs",
-              "RelativeToolTip": "MyForms\\InnerUserControls\\subTranscation.Designer.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwFkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T03:42:29.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "subTranscation.cs [Design]",
-              "DocumentMoniker": "E:\\InventoryManagement\\MyForms\\InnerUserControls\\subTranscation.cs",
-              "RelativeDocumentMoniker": "MyForms\\InnerUserControls\\subTranscation.cs",
-              "ToolTip": "E:\\InventoryManagement\\MyForms\\InnerUserControls\\subTranscation.cs [Design]",
-              "RelativeToolTip": "MyForms\\InnerUserControls\\subTranscation.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T04:11:06.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TransactionUC.cs",
-              "DocumentMoniker": "E:\\InventoryManagement\\MyForms\\UserControls\\TransactionUC.cs",
-              "RelativeDocumentMoniker": "MyForms\\UserControls\\TransactionUC.cs",
-              "ToolTip": "E:\\InventoryManagement\\MyForms\\UserControls\\TransactionUC.cs",
-              "RelativeToolTip": "MyForms\\UserControls\\TransactionUC.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T18:52:06.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TransactionUC.cs [Design]",
-              "DocumentMoniker": "E:\\InventoryManagement\\MyForms\\UserControls\\TransactionUC.cs",
-              "RelativeDocumentMoniker": "MyForms\\UserControls\\TransactionUC.cs",
-              "ToolTip": "E:\\InventoryManagement\\MyForms\\UserControls\\TransactionUC.cs [Design]",
-              "RelativeToolTip": "MyForms\\UserControls\\TransactionUC.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T18:51:58.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TransactionsOperations_BBL.cs",
-              "DocumentMoniker": "E:\\InventoryManagement\\BLL\\TransactionsOperations_BBL.cs",
-              "RelativeDocumentMoniker": "BLL\\TransactionsOperations_BBL.cs",
-              "ToolTip": "E:\\InventoryManagement\\BLL\\TransactionsOperations_BBL.cs",
-              "RelativeToolTip": "BLL\\TransactionsOperations_BBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T04:11:13.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TransactionsOperations_DAL.cs",
-              "DocumentMoniker": "E:\\InventoryManagement\\DAL\\TransactionsOperations_DAL.cs",
-              "RelativeDocumentMoniker": "DAL\\TransactionsOperations_DAL.cs",
-              "ToolTip": "E:\\InventoryManagement\\DAL\\TransactionsOperations_DAL.cs",
-              "RelativeToolTip": "DAL\\TransactionsOperations_DAL.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T04:11:10.088Z",
-              "EditorCaption": ""
             }
           ]
         }
