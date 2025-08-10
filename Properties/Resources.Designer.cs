@@ -19,11 +19,7 @@ namespace InventoryManagement.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-<<<<<<< HEAD
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
-=======
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -127,8 +123,6 @@ namespace InventoryManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
-=======
         internal static System.Drawing.Bitmap Exchange {
             get {
                 object obj = ResourceManager.GetObject("Exchange", resourceCulture);
@@ -159,7 +153,6 @@ namespace InventoryManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
         internal static System.Drawing.Bitmap home_icon {
             get {
                 object obj = ResourceManager.GetObject("home_icon", resourceCulture);
@@ -210,8 +203,6 @@ namespace InventoryManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
-=======
         internal static System.Drawing.Bitmap Supply {
             get {
                 object obj = ResourceManager.GetObject("Supply", resourceCulture);
@@ -242,7 +233,6 @@ namespace InventoryManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
         internal static System.Drawing.Bitmap transactions_icon {
             get {
                 object obj = ResourceManager.GetObject("transactions_icon", resourceCulture);

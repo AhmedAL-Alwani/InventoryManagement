@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|c:\\users\\abdullah\\downloads\\inventorymanagement-ab3awd\\inventorymanagement-ab3awd\\myforms\\innerusercontrols\\subtranscation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:myforms\\innerusercontrols\\subtranscation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\dal\\transactionsoperations_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:dal\\transactionsoperations_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\bll\\transactionsoperations_bbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:bll\\transactionsoperations_bbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\myforms\\innerusercontrols\\subtranscation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:myforms\\innerusercontrols\\subtranscation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\myforms\\innerusercontrols\\subtranscation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:myforms\\innerusercontrols\\subtranscation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\myforms\\usercontrols\\transactionuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:myforms\\usercontrols\\transactionuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\myforms\\usercontrols\\transactionuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9685C2E1-CA23-4551-BA15-3397B59E794F}|InventoryManagement.csproj|solutionrelative:myforms\\usercontrols\\transactionuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "subTranscation.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\MyForms\\InnerUserControls\\subTranscation.cs",
+              "RelativeDocumentMoniker": "MyForms\\InnerUserControls\\subTranscation.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\MyForms\\InnerUserControls\\subTranscation.cs*",
+              "RelativeToolTip": "MyForms\\InnerUserControls\\subTranscation.cs*",
+              "ViewState": "AgIAABcBAAAAAAAAAAAUwCEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T03:36:30.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "subTranscation.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\MyForms\\InnerUserControls\\subTranscation.Designer.cs",
+              "RelativeDocumentMoniker": "MyForms\\InnerUserControls\\subTranscation.Designer.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\MyForms\\InnerUserControls\\subTranscation.Designer.cs",
+              "RelativeToolTip": "MyForms\\InnerUserControls\\subTranscation.Designer.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwFkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T03:42:29.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "subTranscation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\MyForms\\InnerUserControls\\subTranscation.cs",
+              "RelativeDocumentMoniker": "MyForms\\InnerUserControls\\subTranscation.cs",
+              "ToolTip": "E:\\InventoryManagement\\MyForms\\InnerUserControls\\subTranscation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T04:11:06.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransactionUC.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\MyForms\\UserControls\\TransactionUC.cs",
+              "RelativeDocumentMoniker": "MyForms\\UserControls\\TransactionUC.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\MyForms\\UserControls\\TransactionUC.cs",
+              "RelativeToolTip": "MyForms\\UserControls\\TransactionUC.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T18:52:06.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionUC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\MyForms\\UserControls\\TransactionUC.cs",
+              "RelativeDocumentMoniker": "MyForms\\UserControls\\TransactionUC.cs",
+              "ToolTip": "E:\\InventoryManagement\\MyForms\\UserControls\\TransactionUC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T18:51:58.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionsOperations_BBL.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\BLL\\TransactionsOperations_BBL.cs",
+              "RelativeDocumentMoniker": "BLL\\TransactionsOperations_BBL.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\BLL\\TransactionsOperations_BBL.cs",
+              "RelativeToolTip": "BLL\\TransactionsOperations_BBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T04:11:13.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionsOperations_DAL.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\DAL\\TransactionsOperations_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\TransactionsOperations_DAL.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Downloads\\InventoryManagement-ab3awd\\InventoryManagement-ab3awd\\DAL\\TransactionsOperations_DAL.cs",
+              "RelativeToolTip": "DAL\\TransactionsOperations_DAL.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T04:11:10.088Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

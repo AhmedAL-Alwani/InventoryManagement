@@ -7,30 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-<<<<<<< HEAD
-=======
 using InventoryManagement.MyForms.UserControls;
 using InventoryManagement.MyForms.InnerUserControls;
-
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
 
 namespace InventoryManagement.MyForms.UserControls
 {
     public partial class TransactionUC : UserControl
     {
         public MainForm main;
-<<<<<<< HEAD
-=======
-        
-
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
         public TransactionUC(MainForm main)
         {
             InitializeComponent();
             this.main = main;
         }
-<<<<<<< HEAD
-=======
 
        public enum TransactionMode
         {
@@ -73,6 +62,5 @@ namespace InventoryManagement.MyForms.UserControls
         {
 
         }
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
     }
 }

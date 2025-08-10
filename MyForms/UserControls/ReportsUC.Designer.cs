@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
             this.pic_transactions_repo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_transactions_repo)).BeginInit();
             this.SuspendLayout();
@@ -43,32 +42,20 @@
             this.pic_transactions_repo.TabStop = false;
             this.pic_transactions_repo.Click += new System.EventHandler(this.pic_transactions_repo_Click);
             // 
-=======
-            this.SuspendLayout();
-            // 
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
             // ReportsUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.Controls.Add(this.pic_transactions_repo);
             this.Name = "ReportsUC";
             this.Size = new System.Drawing.Size(1011, 646);
             ((System.ComponentModel.ISupportInitialize)(this.pic_transactions_repo)).EndInit();
-=======
-            this.Name = "ReportsUC";
-            this.Size = new System.Drawing.Size(1011, 646);
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
             this.ResumeLayout(false);
 
         }
 
         #endregion
-<<<<<<< HEAD
 
         private System.Windows.Forms.PictureBox pic_transactions_repo;
-=======
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
     }
 }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
             this.SuspendLayout();
             // 
             // TransactionUC
@@ -37,7 +36,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "TransactionUC";
             this.Size = new System.Drawing.Size(1011, 646);
-=======
             this.btn_ExchangeReturn = new System.Windows.Forms.Button();
             this.btn_SupplyReturn = new System.Windows.Forms.Button();
             this.btn_Exchange = new System.Windows.Forms.Button();
@@ -164,14 +162,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
             this.ResumeLayout(false);
 
         }
 
         #endregion
-<<<<<<< HEAD
-=======
 
         private System.Windows.Forms.Button btn_ExchangeReturn;
         private System.Windows.Forms.Button btn_SupplyReturn;
@@ -181,6 +176,5 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
->>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
     }
 }
