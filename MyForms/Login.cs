@@ -8,14 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using InventoryManagement.UserControls;
+<<<<<<< HEAD
 using InventoryManagement.BLL;
+=======
+
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
 
 namespace InventoryManagement
 {
     public partial class Login : Form
     {
        private MainForm main;
+<<<<<<< HEAD
         LoginBLL userBLL = new LoginBLL();
+=======
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
         public Login(MainForm main)
         {
             InitializeComponent();
@@ -24,6 +31,7 @@ namespace InventoryManagement
 
         private void btnlog_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
 
             int userId = userBLL.Login(txtname.Text, txtpass.Text);
@@ -31,18 +39,26 @@ namespace InventoryManagement
             if (userId != -1)
             {
                 
+=======
+            if(txtname.Text=="ahmed" && txtpass.Text == "123")
+            {
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
                 main.btnhome.Enabled = true;
                 main.btnproducts.Enabled = true;
                 main.btnsuppliers.Enabled = true;
                 main.btncustomers.Enabled = true;
                 main.btntransactions.Enabled = true;
                 main.btnreports.Enabled = true;
+<<<<<<< HEAD
 
                 
+=======
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
                 main.panelhome.Controls.Clear();
                 Home_UC h = new Home_UC(main);
                 h.Dock = DockStyle.Fill;
                 main.panelhome.Controls.Add(h);
+<<<<<<< HEAD
 
                 main.username = txtname.Text;
                 a = true;
@@ -54,6 +70,17 @@ namespace InventoryManagement
                 txtname.Clear();
                 txtpass.Clear();
                 txtname.Focus();
+=======
+                a = true;
+                this.Close();
+                
+            }
+            else
+            {
+                MessageBox.Show("Name or passwoed isn't correct");
+                txtname.Clear();
+                txtpass.Clear();
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
             }
         }
 

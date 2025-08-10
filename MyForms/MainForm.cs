@@ -14,7 +14,10 @@ namespace InventoryManagement
 {
     public partial class MainForm : Form
     {
+<<<<<<< HEAD
         public String username;
+=======
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
         public MainForm()
         {
             InitializeComponent();
@@ -30,7 +33,11 @@ namespace InventoryManagement
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             btnhome.Enabled = false;
+=======
+           /* btnhome.Enabled = false;
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
             btnproducts.Enabled = false;
             btnsuppliers.Enabled = false;
             btncustomers.Enabled = false;
@@ -38,7 +45,11 @@ namespace InventoryManagement
             btnreports.Enabled = false;
             this.Show();
             Login log = new Login(this);
+<<<<<<< HEAD
             log.ShowDialog();
+=======
+            log.ShowDialog();*/
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
         }
 
         private void btnproducts_Click(object sender, EventArgs e)

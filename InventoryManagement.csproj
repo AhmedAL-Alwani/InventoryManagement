@@ -37,6 +37,10 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+<<<<<<< HEAD
+=======
+    <Reference Include="System.DirectoryServices" />
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
     <Reference Include="System.Management" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web" />
@@ -53,14 +57,22 @@
   <ItemGroup>
     <Compile Include="BLL\CategoriesBLL.cs" />
     <Compile Include="BLL\ItemBLL.cs" />
+<<<<<<< HEAD
     <Compile Include="BLL\LoginBLL.cs" />
     <Compile Include="BLL\TransactionsRepoBLL.cs" />
+=======
+    <Compile Include="BLL\TransactionsOperations_BBL.cs" />
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
     <Compile Include="BLL\UnitsBLL.cs" />
     <Compile Include="ConnectionString\DBConnection.cs" />
     <Compile Include="DAL\CategoriesDAL.cs" />
     <Compile Include="DAL\ItemDAL.cs" />
+<<<<<<< HEAD
     <Compile Include="DAL\LoginDAL.cs" />
     <Compile Include="DAL\TransactionsRepoDAL.cs" />
+=======
+    <Compile Include="DAL\TransactionsOperations_DAL.cs" />
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
     <Compile Include="DAL\UnitsDAL.cs" />
     <Compile Include="Models\ClassForTest.cs" />
     <Compile Include="MyForms\InnerUserControls\AddCategory.cs">
@@ -75,11 +87,19 @@
     <Compile Include="MyForms\InnerUserControls\AddUnitUC.Designer.cs">
       <DependentUpon>AddUnitUC.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="MyForms\InnerUserControls\TransactionsRepo.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="MyForms\InnerUserControls\TransactionsRepo.Designer.cs">
       <DependentUpon>TransactionsRepo.cs</DependentUpon>
+=======
+    <Compile Include="MyForms\InnerUserControls\subTranscation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyForms\InnerUserControls\subTranscation.Designer.cs">
+      <DependentUpon>subTranscation.cs</DependentUpon>
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
     </Compile>
     <Compile Include="MyForms\Login.cs">
       <SubType>Form</SubType>
@@ -137,8 +157,13 @@
     <EmbeddedResource Include="MyForms\InnerUserControls\AddUnitUC.resx">
       <DependentUpon>AddUnitUC.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="MyForms\InnerUserControls\TransactionsRepo.resx">
       <DependentUpon>TransactionsRepo.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="MyForms\InnerUserControls\subTranscation.resx">
+      <DependentUpon>subTranscation.cs</DependentUpon>
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
     </EmbeddedResource>
     <EmbeddedResource Include="MyForms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -223,7 +248,25 @@
   <ItemGroup>
     <None Include="bin\Debug\image\5.jpg" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup />
+=======
+  <ItemGroup>
+    <None Include="Resources\ExchangeReturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SupplyReturn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Supply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DAL\define data access layer.txt" />
+  </ItemGroup>
+>>>>>>> 560d346428c99d5576ad73d7fdbf828c372fff2e
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
