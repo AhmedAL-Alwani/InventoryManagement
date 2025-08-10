@@ -16,3 +16,23 @@ C:\Users\Ahmed\documents\visual studio 2015\Projects\InventoryManagement\Invento
 C:\Users\Ahmed\documents\visual studio 2015\Projects\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.MyForms.UserControls.ReportsUC.resources
 C:\Users\Ahmed\documents\visual studio 2015\Projects\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.MyForms.UserControls.SuppliersUC.resources
 C:\Users\Ahmed\documents\visual studio 2015\Projects\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.MyForms.UserControls.TransactionUC.resources
+E:\InventoryManagement\bin\Debug\InventoryManagement.exe.config
+E:\InventoryManagement\bin\Debug\InventoryManagement.exe
+E:\InventoryManagement\bin\Debug\InventoryManagement.pdb
+E:\InventoryManagement\obj\Debug\InventoryManagement.csproj.AssemblyReference.cache
+E:\InventoryManagement\obj\Debug\InventoryManagement.InnerUserControls.AddCategory.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.MyForms.InnerUserControls.AddUnitUC.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.Login.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.MainForm.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.MyForms.UserControls.CustomersUC.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.MyForms.UserControls.ReportsUC.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.MyForms.UserControls.SuppliersUC.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.MyForms.UserControls.TransactionUC.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.Properties.Resources.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.UserControls.Home_UC.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.UserControls.Products_UC.resources
+E:\InventoryManagement\obj\Debug\InventoryManagement.csproj.GenerateResource.cache
+E:\InventoryManagement\obj\Debug\InventoryManagement.csproj.CoreCompileInputs.cache
+E:\InventoryManagement\obj\Debug\InventoryManagement.exe
+E:\InventoryManagement\obj\Debug\InventoryManagement.pdb
+E:\InventoryManagement\obj\Debug\InventoryManagement.MyForms.InnerUserControls.subTranscation.resources
