@@ -53,10 +53,14 @@
   <ItemGroup>
     <Compile Include="BLL\CategoriesBLL.cs" />
     <Compile Include="BLL\ItemBLL.cs" />
+    <Compile Include="BLL\LoginBLL.cs" />
+    <Compile Include="BLL\TransactionsRepoBLL.cs" />
     <Compile Include="BLL\UnitsBLL.cs" />
     <Compile Include="ConnectionString\DBConnection.cs" />
     <Compile Include="DAL\CategoriesDAL.cs" />
     <Compile Include="DAL\ItemDAL.cs" />
+    <Compile Include="DAL\LoginDAL.cs" />
+    <Compile Include="DAL\TransactionsRepoDAL.cs" />
     <Compile Include="DAL\UnitsDAL.cs" />
     <Compile Include="Models\ClassForTest.cs" />
     <Compile Include="MyForms\InnerUserControls\AddCategory.cs">
@@ -70,6 +74,12 @@
     </Compile>
     <Compile Include="MyForms\InnerUserControls\AddUnitUC.Designer.cs">
       <DependentUpon>AddUnitUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyForms\InnerUserControls\TransactionsRepo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyForms\InnerUserControls\TransactionsRepo.Designer.cs">
+      <DependentUpon>TransactionsRepo.cs</DependentUpon>
     </Compile>
     <Compile Include="MyForms\Login.cs">
       <SubType>Form</SubType>
@@ -126,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyForms\InnerUserControls\AddUnitUC.resx">
       <DependentUpon>AddUnitUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForms\InnerUserControls\TransactionsRepo.resx">
+      <DependentUpon>TransactionsRepo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyForms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

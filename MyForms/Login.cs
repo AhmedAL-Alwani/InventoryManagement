@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using InventoryManagement.UserControls;
-
+using InventoryManagement.BLL;
 
 namespace InventoryManagement
 {
     public partial class Login : Form
     {
        private MainForm main;
+        LoginBLL userBLL = new LoginBLL();
         public Login(MainForm main)
         {
             InitializeComponent();
@@ -23,27 +24,36 @@ namespace InventoryManagement
 
         private void btnlog_Click(object sender, EventArgs e)
         {
-            if(txtname.Text=="ahmed" && txtpass.Text == "123")
+            
+
+            int userId = userBLL.Login(txtname.Text, txtpass.Text);
+
+            if (userId != -1)
             {
+                
                 main.btnhome.Enabled = true;
                 main.btnproducts.Enabled = true;
                 main.btnsuppliers.Enabled = true;
                 main.btncustomers.Enabled = true;
                 main.btntransactions.Enabled = true;
                 main.btnreports.Enabled = true;
+
+                
                 main.panelhome.Controls.Clear();
                 Home_UC h = new Home_UC(main);
                 h.Dock = DockStyle.Fill;
                 main.panelhome.Controls.Add(h);
+
+                main.username = txtname.Text;
                 a = true;
                 this.Close();
-                
             }
             else
             {
-                MessageBox.Show("Name or passwoed isn't correct");
+                MessageBox.Show("Name or password isn't correct");
                 txtname.Clear();
                 txtpass.Clear();
+                txtname.Focus();
             }
         }
 
